@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 650px;
+    width: 90%;
+    border: 15px groove black;
+    margin: auto;
+    margin-top: 10px;
+    /* border-radius: 30px; */
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size:35px ;
+}
+
+
+
+.span{
+    font-family: 'Playfair Display', serif !important ;
+    font-size: 70px;
+}
+
+span{
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
+.heading{
+    margin: auto;
+    text-align: center;
+    margin: 10px 500px;
+    line-height: 45.8px;
+}
+
+ul li{
+    display: inline-block;
+    text-align: center;
+    padding: 25px;
+    font-weight: 400;
+    transition: .3s ease;
+}
+
+.list{
+margin: auto;
+text-align: center;
+border-top: 3px solid black;
+border-bottom: 3px solid black;
+width: 70%;
+margin-top: 20px;
+}
+
+ul li:hover{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.images{
+   
+    /* margin-left: 245px; */
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+   
+  
+}
+p{
+    padding:30px 230px
+}
+
+.images img{
+    display: inline-block;
+    height: 200px;
+    width: 250px;
+    transition: .3s ease-in-out;
+}
+img:hover{
+    transform: scale(110%);
+}
